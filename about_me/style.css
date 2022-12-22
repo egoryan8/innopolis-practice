@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  background: #20202D;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  padding: 0 15px;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.links-item {
+  margin-right: 21px;
+}
+
+.links-item:last-of-type {
+  margin-right: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  margin-left: 10px;
+}
+
+.about-me {
+  padding: 132px 0 150px;
+  display: flex;
+}
+
+.info {
+  margin-right: 120px;
+}
+
+.vacancy {
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFBB01;
+}
+
+.name {
+  margin-top: 14px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+}
+
+.about-text {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 420px;
+}
+
+.about-button {
+  margin-top: 37px;
+  background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+  box-shadow: 0px 4px 0px #B68500;
+  border-radius: 5px 5px 10px 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 25px 40px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+.main-photo {
+  border-radius: 50%;
+  border: 8px solid white;
+}
+
